@@ -1,0 +1,15 @@
+ (1) 把代碼快捷鍵:(h2>{章節$})+p>lorem)*6 
+
+<h2>章節1</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi atque aperiam error alias officia officiis repellat voluptate molestiae praesentium eaque! Ratione ipsam reiciendis rem deserunt quisquam totam? Perspiciatis, officiis fugit?</p>
+    <h2>章節2</h2>
+    <p>Optio a labore libero qui! Illo, ducimus. Labore praesentium incidunt voluptates hic quasi commodi corrupti, dolorum quas eveniet sed nostrum cupiditate architecto obcaecati libero debitis repellendus deserunt atque illum voluptate.</p>
+    <h2>章節3</h2>
+    <p>Animi iste unde veniam? Labore illum earum reiciendis blanditiis vel perferendis eaque excepturi dignissimos, omnis assumenda id velit quod laborum odio quos minima? Voluptas animi tenetur deserunt fuga, temporibus expedita.</p>
+    <h2>章節4</h2>
+    <p>Eveniet, maiores et ipsa voluptatibus enim cupiditate error odio nesciunt fugiat eius non repellat nam quis cum vel maxime optio, ullam suscipit id distinctio. Voluptas odit ipsa labore numquam exercitationem!</p>
+    <h2>章節5</h2>
+    <p>Error qui excepturi illum laborum! Impedit quidem culpa sit minima eum dolores veritatis aut recusandae, eaque provident excepturi assumenda. Cupiditate possimus accusantium repellendus magni et ratione labore reprehenderit quos sed.</p>
+    <h2>章節6</h2>
+    <p>Fugit laborum ex ad iste ipsam placeat aut! Impedit aliquid recusandae quasi placeat similique aliquam pariatur omnis corrupti. Earum voluptatibus aliquid iste dolores optio excepturi laudantium sapiente eius a corrupti?</p>   
+       

@@ -1,0 +1,9 @@
+map name="solar
+img usemap="#solar
+
+map的紫園素:area
+area shape=circle,rect,poly coords
+
+figure元素: 把圖片 圖片描述包裹
+
+src屬性=source

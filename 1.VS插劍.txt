@@ -1,0 +1,9 @@
+paste image
+markdown可在旁開啟預覽
+vscode icon:看html5 css3 的圖案
+live server 直接打開瀏覽
+live sass compiler 把scss轉css(也有包含autoprefixer功能)
+autoprefixer (
+code runner 快速編譯js py黨等等.....
+vscode icons 快速查看檔案的圖案
+

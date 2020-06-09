@@ -1,0 +1,16 @@
+video和audio
+
+##video元素:
+布爾屬性:不用寫屬性值
+controls:布爾屬性,撥放控件，只能取值為controls
+autoplay:同上,自動撥放
+muted:同上 靜音
+loop:同上 循環撥放
+##audio
+和video元素一樣
+
+##兼容性
+1每個瀏覽器支持不同音檔
+<video......>
+<source src="ggdfg.mp4
+<source src="ggdfg.webm

@@ -1,0 +1,41 @@
+一、font-size
+
+當前的字體大小等於100%
+
+二、line-height
+
+line-height的計算值就是當前字體的值乘以該百分比。注意line-height取值為數值或者百分比的差異，此處不細緻講解。
+
+三、width
+
+正常文檔流中和設置浮動的情況下，相對於父元素content-box的寬度；絕對定位時，相對於包含塊padding-box的寬度。
+
+四、height
+
+height對百分比也是支持的，但是其和width還是有一個明顯的區別：當父元素width屬性為auto時，子元素寬度仍然可以使用百分比設置。但是對於height，只要子元素還是在正常文檔流當中的，如果父元素的height屬性為auto，則子元素height設置為百分比會被忽略。規範中指出：如果包含塊的高度沒有顯式指出（即高度由內容決定），並且該元素不是絕對定位，則計算值為auto。而auto*100/100=NaN。所以，若要高度的百分比設置有效，需要如下設置：
+
+html,body{
+  height:100%
+}
+上述高度計算，都是對於正常流
+
+五、margin、padding
+
+無論是垂直或水平方向，均是相對於父元素的寬度，正常文檔流中和設置浮動的情況下，相對於父元素content-box的寬度；絕對定位時，相對於包含塊padding-box的寬度。
+
+六、background-position
+
+具體見我的另一篇文章，有細緻講解《CSS之background》。
+
+七、定位元素的left/right/bottom/top百分比值
+
+ top,bottom設置百分比定位是按包含塊padding-box的高度來計算的，同樣left,right,設置百分比定位是按包含塊padding-box的寬度來計算的。
+
+******總結定位是看paddding-box 
+正規流 和 float 是 content-box
+
+
+ 
+————————————————
+版权声明：本文为CSDN博主「donggejia_de_daxiong」的原创文章，遵循CC 4.0 BY-SA版权协议，转载请附上原文出处链接及本声明。
+原文链接：https://blog.csdn.net/sunshine1990916/article/details/80938294

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .a{
+            width: 300px;
+            height: 300px;
+            display: flex;
+            /* flex-wrap: wrap;  wrap在多行用百分比flex:20% 不要用flex:1*/
+            /* align-content: flex-start; 本來默認是strength 但會失效  */
+            justify-content: flex-start;
+        }
+        /* .b{ */
+            /* flex: 1; 設置主軸的長度比例 */
+            /* flex-basis: 200px; 是設置在主軸的長度 flex:1優先於這*/
+            /* width: 150px; 要width在測軸可以設定 */
+            /* background: teal; */
+            /* height: 22px; */
+        /* } */
+            .b{
+                flex: 100%;
+                background: tomato;
+            }
+        .c{
+            flex: 1;
+            background: tan;
+            height: 40px;
+           
+        }
+        .d{
+            flex: 20%;
+            background: teal;
+        }
+    </style>
+</head>
+<body>
+   <div class="a">
+       <a href="" class="b"></a>
+       <a href="" class="c"></a>
+       <div class="d"></div>
+   </div>
+</body>
+</html>
